@@ -1,0 +1,209 @@
+:root{
+    --fonte-principal: 'Verdana';
+    --fundo-principal: rgb(241, 207, 252);
+    --cor-principal: rgb(138, 2, 138);
+    --cor-de-fundo: #e1c2e7;
+    --cor-botao: #d292df;
+    --cor-texto: rgb(68, 0, 68);
+    /*Usei o root para colocar algumas caracteristicas do código que iriam se repetir durante o CSS*/
+}
+body{
+    background-color: var(--fundo-principal);
+    color: #f6f6f6;
+}
+h1{
+    color: var(--cor-principal);
+    padding: 12px;
+    margin: 2px 20px;
+    margin-top: 1em;
+    text-align: center;
+    border: solid #f6f6f6 2px;
+    border-radius: 10px;
+    border-style: outset;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal) ;
+
+}
+h3{
+    color: var(--cor-principal); 
+    margin: 0 390px;
+    padding: 5px 16px;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: 'Arial';
+}
+
+strong {
+    color: var(--cor-texto); 
+}
+.inicial{
+    margin: 25px 300px;
+    text-align: center;
+    background-color: #f6f6f6;
+    color: var(--cor-texto);
+    width: 50%;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 16px;
+}
+.eu{
+    margin: 20px 0;
+    width: 250px;
+    height: 300px;
+}
+.paragrafo{
+    padding: 16px;
+    border: solid #f6f6f6 2px;
+    border-radius: 10px;
+    border-style:outset;
+    background-color: #e1c2e7;
+    margin: 0;
+    color: blueviolet;
+    font-size: 120%;
+    text-align: center;
+    font-family: 'Arial';
+}
+.port{
+    width: 70em;
+}
+.hr2{
+    color: var(--cor-principal);
+    width: 35em;
+    border-style: dotted;
+} /*Utilizei uma linha decorada para criar uma divisão em alguns pontos do portfólio*/
+.menu{
+    margin: 0;
+    padding: 8px 16px;
+    color: var(--cor-principal);
+    text-decoration: none;
+    border: solid white 1px;
+    border-radius: 10px;
+    border-style: dashed;
+    background-color: #e1c2e7;
+    font-family: 'Arial';
+    font-size: 90%;
+}
+.menu li {
+    
+    display: inline;
+    margin: 0 130px;
+    text-decoration-line: none;
+    color: var(--cor-principal);
+}
+.menu li a{
+    text-decoration: none;
+    
+}
+
+.menu li a:hover{
+    background-color: var(--cor-principal);
+    color: white;
+}
+
+h2{
+    color: var(--cor-texto); 
+    margin: 0 420px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Arial';
+    text-align: center;
+}
+.paragrafo_secundario{
+    padding: 0;
+    margin: 0;
+    color: blueviolet;
+    font-size: 120%;
+    text-align: center;
+    font-family: 'Arial';
+}
+.p2{
+    padding: 25px;
+    margin: 0 30px;
+    border: white solid 2px;
+    border-radius: 10px;
+    border-style: outset;
+    color: blueviolet;
+    font-size: 120%;
+    text-align: center;
+    font-family: 'Arial';
+}
+.site{
+    width: 55%;
+    margin: 10px 300px;
+}
+.botao{
+    border: solid white 2px;
+    border-radius: 5px;
+    margin-top: 2em;
+    margin: 38em;
+    padding: 10px;
+    background-color: var(--cor-botao);
+    color: blueviolet;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: var(--cor-principal);
+    color: white;
+}
+/*Criei uma nova Variável para o menu da página portfolio pois nçao gostei da forma que ele se comportou quando muda das outras páginas para esta.*/
+.menu_port{
+    margin: 0;
+    padding: 8px 8px;
+    color: var(--cor-principal);
+    text-decoration: none;
+    border: solid white 1px;
+    border-radius: 10px;
+    background-color: var(--cor-de-fundo);
+    font-family: 'Arial';
+    font-size: 90%;
+}
+.menu_port li {
+    display: inline;
+    margin: 0 130px;
+    text-decoration-line: none;
+    color: rgb(138,2, 138);
+}
+.menu_port li a{
+    text-decoration: none;
+    /*Utilizei a text decoration none para tirar a linha embaiso do link do menu*/
+}
+
+.menu_port li a:hover{
+    background-color: rgb(138, 2, 138);
+    color: white;
+    /*Coloquei uma decoração quando o mouse estiver em cima do texto do texto.*/
+}
+.rotulo{
+    color: var(--cor-texto);
+    margin: 0 16px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+.rotulodois{
+    color: var(--cor-texto);
+    border-radius: 5px;
+    padding: 1px;
+    margin: 0 28px;   
+}
+.container{
+    margin: 2px 16px;
+    padding: 16px;
+}
+.botao2{
+    border: solid white 2px;
+    border-radius: 5px;
+    margin-top: 2em;
+    margin: 3em;
+    padding: 10px;
+    background-color: var(--cor-botao);
+    color: blueviolet;
+    text-decoration: none;
+}
+.botao2:hover{
+    background-color: var(--cor-principal);
+    color: white;
+}
